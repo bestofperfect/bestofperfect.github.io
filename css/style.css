@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+body {
+  margin: 0;
+  padding: 0;
+  background: #2b374f;
+  font-family: Quicksand, sans-serif;
+}
+
+a,
+a:visited {
+  color: #555;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited:hover {
+  color: #22a1c4;
+  text-decoration: none;
+}
+
+#arlina {
+  background: #fff;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 920px;
+  overflow: hidden;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.03);
+}
+
+#header {
+  height: 200px;
+  margin: 0;
+  background: #fdfdfd;
+}
+
+#header h1 {
+  display: table;
+  color: #999;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+  padding: 50px 50px 0 50px;
+  font-size: 55px;
+}
+
+#header p {
+  display: table;
+  color: #999;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#content {
+  position: relative;
+  width: 100%;
+  height: 1850px;
+  margin: 0;
+  background: #fff;
+  padding: 20px 0;
+}
+
+#main {
+  position: relative;
+  float: left;
+  width: 50%;
+  background: #fff;
+}
+
+
+#side {
+  background: #fff;
+  
+  float: right;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#sidecontent2 {
+  width: auto;
+  height: 200px;
+  margin: 0 20px 20px auto;
+  background: #9da9c0;
+  position: relative;
+}
+
+#sidecontent2 span {
+  display: table;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+#footer {
+  height: 50px;
+  clear: both;
+  background: #3a4c6d;
+}
+
+
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/* Recommended Widget */
+
+#chslidingbox {
+  background: #fff;
+  width: 100%;
+  max-width: 355px;
+  height: 335px;
+  position: fixed;
+  overflow: hidden;
+  border: none;
+  right: -360px;
+  z-index: 99;
+  text-align: left;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.03);
+  transition: all .4s ease-out;
+}
+
+.chslidingbox-title {
+  background: #9eb2c0;
+  color: #fff;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: .5px
+}
+
+.chslidingbox-title span a {
+  font-family: initial;
+  float: right;
+  height: 40px;
+  margin: 0 0 0 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px
+}
+
+a#chslidingbox-close,
+a#chslidingbox-close {
+  margin-right: 15px;
+}
+
+.chslidingbox-title > span > h2 {
+  font-size: 20px!important;
+  font-weight: normal!important;
+}
+
+.chslidingbox-container {
+  border: none;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 3px
+}
+
+.chslidingbox-container > div {
+  border: none;
+  margin: 3px 0;
+  padding: 10px 0
+}
+
+.chslidingbox-container > div > span {
+  font-size: 14px;
+}
+
+.show {
+  bottom: 84px;
+}
+
+.hide {
+  bottom: -145px;
+}
